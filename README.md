@@ -13,6 +13,8 @@ with real-time lines added/subtracted per user through the Google Drive API.
 ## Concept 2 (offline mode)
 Use Sparkle Share to allow users to set-up local docs that sync with the GitHub Repo.
 Metrics calculated on GitHub repo using Kubernetes web app.
+* problem - can't capture Lisa's diff from Sparkle input.
+* Git conflict causes unexpected behavior.
 
 ## Concept 3 (online mode)
 Use Sparkle Share hosted in a container (persistent disk or GCS backup) to allow users 
