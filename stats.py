@@ -26,5 +26,5 @@ class UserStats:
 
 if __name__ == '__main__':
     stats = UserStats()
-    net_lines = stats.get_net_lines('markdavidmc0', 'https://github.com/markdavidmc0/colab-tester')
+    net_lines = stats.get_net_lines('markdavidmc0', '/Users/markmc/Repos/colab-tester')
     print(net_lines)
