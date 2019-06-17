@@ -1,2 +1,2 @@
 # indigo-scribe
-version control content ideas
+version control content ideas...
