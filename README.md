@@ -3,7 +3,6 @@ version control content ideas...
 
 This is Mark's line.
 I wonder what happens if Lisa changes that line?
-Could it be catastrophic?
 
 Meh
 1
