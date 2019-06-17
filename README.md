@@ -2,7 +2,6 @@
 version control content ideas...
 
 I wonder what happens if Lisa changes that line?
-Could it be catastrophic?
 
 Meh
 1
