@@ -1,7 +1,10 @@
-environs-5.1.0
+environs==5.1.0
 gitpython>=2.1.11
 flake8>=3.7.7
 Django==2.2.3
-django-storages-1.7.1
+django-storages==1.7.1
 djangorestframework==3.9.4
-google-cloud-storage-1.16.1
+google-cloud-storage==1.16.1
+djangorestframework-jwt==1.11.0
+python-jose==3.0.1
+cryptography==2.7

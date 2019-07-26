@@ -1,7 +1,13 @@
-from django.urls import path
+from django.conf.urls import include, url
+from rest_framework.routers import DefaultRouter
 
-from . import views
+from myproject.views import ProjectViewSet
+from myproject.views import ContentBlockViewSet
+
+router = DefaultRouter()
+router.register(r'project', ProjectViewSet, basename='project')
+router.register(r'block', ContentBlockViewSet, basename='project')
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    url(r'^', include(router.urls))
 ]
